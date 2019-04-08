@@ -54,21 +54,31 @@ body {
 p {
   text-align: justify;
   text-indent: 40px;
-}
-section {
-  color: #61122f;
-  background-color: #fcd592;
+  padding: 0px 20px;
 }
 p a {
-  padding: 20px;
+  padding-left: 20px;
   color: #0387af;
 }
 p a:hover {
   color: #0387af;
 }
-.filling {
-  padding: 15px;
+.tiles {
+  color: #61122f;
+  background-color: #fcd592;
 }
-.row {
-  margin: 5px;
+h3 {
+  padding-top: 12px;
+}
+@media (max-width: 767px) {
+  .col-xs-12 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  #Chicken-section, #Beef-section, #Sushi-section {
+  padding-right: 7px;
+  padding-left: 7px;
+  }
 }
